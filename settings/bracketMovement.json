@@ -1,0 +1,21 @@
+{
+    "description": "Fn + \\ -> Cmd + Shift + \\",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "backslash",
+                "modifiers": {
+                    "mandatory": ["fn"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "backslash",
+                    "modifiers": ["left_command", "left_shift"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

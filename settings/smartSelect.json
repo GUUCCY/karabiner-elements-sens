@@ -1,0 +1,31 @@
+{
+    "description": "Shift + Fn + JL to Shift + Control + Arrow Keys",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "j",
+                "modifiers": { "mandatory": ["fn", "left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["left_shift", "left_control"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "l",
+                "modifiers": { "mandatory": ["fn", "left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["left_shift", "left_control"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

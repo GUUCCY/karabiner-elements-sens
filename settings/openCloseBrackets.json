@@ -1,0 +1,37 @@
+{
+    "description": "Fn + [ -> Option + Cmd + [ AND Fn + ] -> Option + Cmd + ]",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "open_bracket",
+                "modifiers": {
+                    "mandatory": ["fn"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "open_bracket",
+                    "modifiers": ["left_option", "left_command"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "close_bracket",
+                "modifiers": {
+                    "mandatory": ["fn"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "close_bracket",
+                    "modifiers": ["left_option", "left_command"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
